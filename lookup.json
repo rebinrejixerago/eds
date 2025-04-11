@@ -1,0 +1,6 @@
+{
+  "/blog/my-first-post": {
+    "template": "blog",
+    "title": "My First Blog Post"
+  }
+}
