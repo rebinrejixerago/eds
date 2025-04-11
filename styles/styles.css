@@ -255,3 +255,27 @@ main .section.highlight {
   margin: 0;
   padding: 40px 0;
 }
+.blog-layout {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.blog-layout > div:first-child {
+  flex: 3; /* 9 columns */
+}
+
+.blog-layout > div:last-child {
+  flex: 1; /* 3 columns */
+}
+
+.login-form {
+  margin-bottom: 2rem;
+}
+
+.related-articles h4 {
+  margin-top: 1rem;
+}
