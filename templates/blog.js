@@ -12,11 +12,13 @@ export default function BlogTemplate(doc) {
       </head>
       <body>
         <header>
-          <h1>${title || ''}  Rebin</h1>
+          <h1>${title || ''}  </h1>
+          
         </header>
 
         <main class="blog-layout">
           ${main}
+          <p>Hello Everyone</p>
         </main>
 
         <footer>
